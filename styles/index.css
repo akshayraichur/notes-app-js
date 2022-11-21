@@ -1,0 +1,29 @@
+:root {
+  --bg-white: #eff6ff;
+  --primary-white: #dbeafe;
+  --secondary-white: #93c5fd;
+  --text-white: #18181b;
+
+  --bg-dark: #0f172a;
+  --primary-dark: #1e293b;
+  --secondary-dark: #64748b;
+  --text-dark: #f1f5f9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-white);
+  color: var(--text-white);
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  text-align: center;
+}
